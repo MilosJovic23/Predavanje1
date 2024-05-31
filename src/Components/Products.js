@@ -56,7 +56,6 @@ function Products(props){
                     </div>
                 ))}
             </div>
-
             <div className="d-flex justify-content-center mb-1 flex-column w-100 align-items-center gap-2">
                 <p>{infoMessage}</p>
                 <input className="rounded-4 text-center" type="text" onInput={search} placeholder="pronadji proizvod"/>

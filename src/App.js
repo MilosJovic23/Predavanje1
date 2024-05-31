@@ -6,9 +6,8 @@ import "bootstrap/dist/css/bootstrap.min.css"
 
 
 
-
 function App() {
-    let [tax,setTax]=useState("20")
+    const [tax,setTax]=useState("20")
     return (
 
         <>
